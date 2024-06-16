@@ -1,5 +1,5 @@
 import { Module } from '@nestjs/common';
-import { CompaniesService } from './companies.service';
+import { CompaniesService } from './use-cases/companies.service';
 import { CompaniesController } from './companies.controller';
 
 @Module({
